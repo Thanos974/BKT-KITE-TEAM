@@ -86,6 +86,23 @@ iframe {
   margin-bottom: 1rem;
 }
 
+.contact-form button {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #6c757d;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #2dfefa;
+}
+
 @media all and (min-width: 768px) {
   header {
     width: 100%;
