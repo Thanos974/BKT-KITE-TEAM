@@ -2,6 +2,10 @@
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
 }
+.rounded {
+  width: 100%;
+  height: auto;
+}
 
 .présentation {
   text-align: center;
@@ -108,5 +112,9 @@ iframe {
 @media all and (min-width: 768px) {
   header {
     width: 100%;
+  }
+  .rounded {
+    width: 50%;
+    height: auto;
   }
 }
